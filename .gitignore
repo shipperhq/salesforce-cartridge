@@ -1,0 +1,12 @@
+# general
+#########
+.DS_Store
+
+# editors
+#########
+/.vscode/
+
+# project
+#########
+dw.json
+node_modules/

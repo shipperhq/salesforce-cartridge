@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jobs xmlns="http://www.demandware.com/xml/impex/jobs/2015-07-01">
+    <job job-id="ShipperHQ" priority="0">
+        <description/>
+        <parameters/>
+        <flow>
+            <context site-id="RefArch"/>
+            <step step-id="AllowedMethods" type="custom.ShipperHQ-MethodSync" enforce-restart="false">
+                <description/>
+                <parameters/>
+            </step>
+        </flow>
+        <split sequential="false">
+            <flow>
+                <context site-id="RefArch"/>
+                <step step-id="RefArch-ImportAllowedMethods" type="ImportShippingMethods" enforce-restart="false">
+                    <description/>
+                    <parameters>
+                        <parameter name="WorkingFolder">shipperhq/RefArch/</parameter>
+                        <parameter name="FileNamePattern">shipping-methods-.*\.xml</parameter>
+                        <parameter name="NoFilesFoundHandling">NO_FILES_FOUND</parameter>
+                        <parameter name="ImportMode">Merge</parameter>
+                        <parameter name="ImportFailedHandling">WARN</parameter>
+                        <parameter name="AfterImportFileHandling">Archive</parameter>
+                        <parameter name="ArchiveFolder">src/shipperhq/RefArch/archive/</parameter>
+                    </parameters>
+                </step>
+            </flow>
+        </split>
+        <rules/>
+        <triggers/>
+    </job>
+</jobs>

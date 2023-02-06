@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xmlns="http://www.demandware.com/xml/impex/metadata/2006-10-31">
+    <type-extension type-id="Product">
+        <custom-attribute-definitions>
+            <attribute-definition attribute-id="shipHeight">
+                <display-name xml:lang="x-default">Ship Height</display-name>
+                <type>double</type>
+                <localizable-flag>false</localizable-flag>
+                <site-specific-flag>false</site-specific-flag>
+                <mandatory-flag>false</mandatory-flag>
+                <visible-flag>false</visible-flag>
+                <externally-managed-flag>false</externally-managed-flag>
+                <order-required-flag>false</order-required-flag>
+                <externally-defined-flag>false</externally-defined-flag>
+            </attribute-definition>
+            <attribute-definition attribute-id="shipLength">
+                <display-name xml:lang="x-default">Ship Length</display-name>
+                <type>double</type>
+                <localizable-flag>false</localizable-flag>
+                <site-specific-flag>false</site-specific-flag>
+                <mandatory-flag>false</mandatory-flag>
+                <visible-flag>false</visible-flag>
+                <externally-managed-flag>false</externally-managed-flag>
+                <order-required-flag>false</order-required-flag>
+                <externally-defined-flag>false</externally-defined-flag>
+            </attribute-definition>
+            <attribute-definition attribute-id="shipWeight">
+                <display-name xml:lang="x-default">Ship Weight</display-name>
+                <type>double</type>
+                <localizable-flag>false</localizable-flag>
+                <site-specific-flag>false</site-specific-flag>
+                <mandatory-flag>false</mandatory-flag>
+                <visible-flag>false</visible-flag>
+                <externally-managed-flag>false</externally-managed-flag>
+                <order-required-flag>false</order-required-flag>
+                <externally-defined-flag>false</externally-defined-flag>
+            </attribute-definition>
+            <attribute-definition attribute-id="shipWidth">
+                <display-name xml:lang="x-default">Ship Width</display-name>
+                <type>double</type>
+                <localizable-flag>false</localizable-flag>
+                <site-specific-flag>false</site-specific-flag>
+                <mandatory-flag>false</mandatory-flag>
+                <visible-flag>false</visible-flag>
+                <externally-managed-flag>false</externally-managed-flag>
+                <order-required-flag>false</order-required-flag>
+                <externally-defined-flag>false</externally-defined-flag>
+            </attribute-definition>
+            <attribute-definition attribute-id="shipperHQDimGroups">
+                <display-name xml:lang="x-default">Dimensional Rule Group(s)</display-name>
+                <type>enum-of-string</type>
+                <localizable-flag>false</localizable-flag>
+                <site-specific-flag>false</site-specific-flag>
+                <mandatory-flag>false</mandatory-flag>
+                <visible-flag>false</visible-flag>
+                <externally-managed-flag>false</externally-managed-flag>
+                <order-required-flag>false</order-required-flag>
+                <externally-defined-flag>false</externally-defined-flag>
+                <select-multiple-flag>true</select-multiple-flag>
+            </attribute-definition>
+            <attribute-definition attribute-id="shipperHQShippingFee">
+                <display-name xml:lang="x-default">Fixed Shipping Fee</display-name>
+                <type>double</type>
+                <localizable-flag>false</localizable-flag>
+                <site-specific-flag>false</site-specific-flag>
+                <mandatory-flag>false</mandatory-flag>
+                <visible-flag>false</visible-flag>
+                <externally-managed-flag>false</externally-managed-flag>
+                <order-required-flag>false</order-required-flag>
+                <externally-defined-flag>false</externally-defined-flag>
+            </attribute-definition>
+            <attribute-definition attribute-id="shipperHQShippingGroups">
+                <display-name xml:lang="x-default">Shipping Groups</display-name>
+                <type>enum-of-string</type>
+                <localizable-flag>false</localizable-flag>
+                <site-specific-flag>false</site-specific-flag>
+                <mandatory-flag>false</mandatory-flag>
+                <visible-flag>false</visible-flag>
+                <externally-managed-flag>false</externally-managed-flag>
+                <order-required-flag>false</order-required-flag>
+                <externally-defined-flag>false</externally-defined-flag>
+                <select-multiple-flag>true</select-multiple-flag>
+            </attribute-definition>
+            <attribute-definition attribute-id="shipperHQHSCode">
+                <display-name xml:lang="x-default">HS Code</display-name>
+                <description xml:lang="x-default">Harmonized System (HS) Code is a six-digit standard, called a subheading, for classifying globally traded products.</description>
+                <type>string</type>
+                <localizable-flag>false</localizable-flag>
+                <site-specific-flag>false</site-specific-flag>
+                <mandatory-flag>false</mandatory-flag>
+                <visible-flag>false</visible-flag>
+                <externally-managed-flag>false</externally-managed-flag>
+                <order-required-flag>false</order-required-flag>
+                <externally-defined-flag>false</externally-defined-flag>
+                <min-length>0</min-length>
+                <field-length>7</field-length>
+            </attribute-definition>
+            <attribute-definition attribute-id="shipperHQWarehouses">
+                <display-name xml:lang="x-default">Origin Warehouse(s)</display-name>
+                <type>enum-of-string</type>
+                <localizable-flag>false</localizable-flag>
+                <site-specific-flag>false</site-specific-flag>
+                <mandatory-flag>false</mandatory-flag>
+                <visible-flag>false</visible-flag>
+                <externally-managed-flag>false</externally-managed-flag>
+                <order-required-flag>false</order-required-flag>
+                <externally-defined-flag>false</externally-defined-flag>
+                <select-multiple-flag>true</select-multiple-flag>
+            </attribute-definition>
+        </custom-attribute-definitions>
+        <group-definitions>
+            <attribute-group group-id="ShipperHQAttributes">
+                <display-name xml:lang="x-default">ShipperHQ</display-name>
+                <attribute attribute-id="shipHeight"/>
+                <attribute attribute-id="shipLength"/>
+                <attribute attribute-id="shipWeight"/>
+                <attribute attribute-id="shipWidth"/>
+                <attribute attribute-id="shipperHQDimGroups"/>
+                <attribute attribute-id="shipperHQShippingFee"/>
+                <attribute attribute-id="shipperHQShippingGroups"/>
+                <attribute attribute-id="shipperHQHSCode"/>
+                <attribute attribute-id="shipperHQWarehouses"/>
+            </attribute-group>
+        </group-definitions>
+    </type-extension>
+
+    <type-extension type-id="Shipment">
+        <custom-attribute-definitions>
+            <attribute-definition attribute-id="shipperHQRatesCache">
+                <display-name xml:lang="x-default">ShipperHQ Rates Cache</display-name>
+                <description xml:lang="x-default">Applicable ShipperHQ rates stored at the time of calculation. This information is used for reference once the order is placed.</description>
+                <type>text</type>
+                <mandatory-flag>false</mandatory-flag>
+                <externally-managed-flag>true</externally-managed-flag>
+            </attribute-definition>
+        </custom-attribute-definitions>
+        <group-definitions>
+            <attribute-group group-id="ShipperHQ">
+                <display-name xml:lang="x-default">ShipperHQ</display-name>
+                <attribute attribute-id="shipperHQRatesCache"/>
+            </attribute-group>
+        </group-definitions>
+    </type-extension>
+
+    <type-extension type-id="ShippingMethod">
+        <custom-attribute-definitions>
+            <attribute-definition attribute-id="shipperHQRates">
+                <display-name xml:lang="x-default">Use ShipperHQ Rates</display-name>
+                <description xml:lang="x-default">Enabling this functionality associate this method with rates returned from ShipperHQ, only showing the method when an applicable rate is provided. When disabled, the method falls back to native functionality.</description>
+                <type>boolean</type>
+                <mandatory-flag>false</mandatory-flag>
+                <externally-managed-flag>true</externally-managed-flag>
+            </attribute-definition>
+        </custom-attribute-definitions>
+        <group-definitions>
+            <attribute-group group-id="ShipperHQ">
+                <display-name xml:lang="x-default">ShipperHQ</display-name>
+                <attribute attribute-id="shipperHQRates"/>
+            </attribute-group>
+        </group-definitions>
+    </type-extension>
+
+    <type-extension type-id="SitePreferences">
+        <custom-attribute-definitions>
+            <attribute-definition attribute-id="ShipperHQEnabled">
+                <display-name xml:lang="x-default">Enable</display-name>
+                <description xml:lang="x-default">Actives ShipperHQ integration, overriding native shipping methods.</description>
+                <type>boolean</type>
+                <mandatory-flag>false</mandatory-flag>
+                <externally-managed-flag>false</externally-managed-flag>
+                <default-value>true</default-value>
+            </attribute-definition>
+            <attribute-definition attribute-id="ShipperHQScope">
+                <display-name xml:lang="x-default">Scope</display-name>
+                <type>enum-of-string</type>
+                <mandatory-flag>false</mandatory-flag>
+                <externally-managed-flag>false</externally-managed-flag>
+                <value-definitions>
+                    <value-definition>
+                        <display xml:lang="x-default">Test</display>
+                        <value>TEST</value>
+                    </value-definition>
+                    <value-definition>
+                        <display xml:lang="x-default">Development</display>
+                        <value>DEVELOPMENT</value>
+                    </value-definition>
+                    <value-definition>
+                        <display xml:lang="x-default">Integration</display>
+                        <value>INTEGRATION</value>
+                    </value-definition>
+                    <value-definition default="true">
+                        <display xml:lang="x-default">Live</display>
+                        <value>LIVE</value>
+                    </value-definition>
+                </value-definitions>
+            </attribute-definition>
+            <attribute-definition attribute-id="ShipperHQApiKey">
+                <display-name xml:lang="x-default">API Key</display-name>
+                <type>string</type>
+                <mandatory-flag>false</mandatory-flag>
+                <externally-managed-flag>false</externally-managed-flag>
+                <min-length>0</min-length>
+            </attribute-definition>
+            <attribute-definition attribute-id="ShipperHQPassword">
+                <display-name xml:lang="x-default">Password</display-name>
+                <type>password</type>
+                <mandatory-flag>false</mandatory-flag>
+                <externally-managed-flag>false</externally-managed-flag>
+            </attribute-definition>
+        </custom-attribute-definitions>
+        <group-definitions>
+            <attribute-group group-id="ShipperHQ">
+                <display-name xml:lang="x-default">ShipperHQ</display-name>
+                <attribute attribute-id="ShipperHQEnabled"/>
+                <attribute attribute-id="ShipperHQScope"/>
+                <attribute attribute-id="ShipperHQApiKey"/>
+                <attribute attribute-id="ShipperHQPassword"/>
+            </attribute-group>
+        </group-definitions>
+    </type-extension>
+</metadata>

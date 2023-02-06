@@ -1,0 +1,571 @@
+{
+    "errors": [],
+    "responseSummary": {
+      "date": 1576530677326,
+      "version": "1.17.198",
+      "transactionId": "SHQ_20191216_2111_ip_10_0_110_71_467124",
+      "status": 1
+    },
+    "mergedRateResponse": {
+      "carrierRates": [
+        {
+          "carrierId": null,
+          "carrierName": "Shipping",
+          "carrierCode": "multicarrier",
+          "carrierType": "multicarrier",
+          "carrierTitle": "Shipping",
+          "customDescription": null,
+          "dateOption": "none",
+          "deliveryDateMessage": null,
+          "deliveryDateFormat": "yMd",
+          "notices": [],
+          "rates": [
+            {
+              "code": "flat_1_and_2",
+              "externalCode": null,
+              "name": "Flats",
+              "description": null,
+              "handlingFee": 0.00,
+              "totalCharges": 10.00,
+              "shippingPrice": 10.00,
+              "deliveryDate": 1582520400000,
+              "deliveryDateStr": "24-02-2020 00:00:00 -0500",
+              "latestDeliveryDate": null,
+              "latestDeliveryDateStr": "",
+              "dispatchDate": 1582088400000,
+              "dispatchDateStr": "19-02-2020 00:00:00 -0500",
+              "cost": null,
+              "origShippingPrice": 5.00,
+              "overrideRuleCharges": null,
+              "carrierType": null,
+              "carrierCode": null,
+              "negotiatedRate": false,
+              "selectedOptions": null,
+              "carrierTitle": null,
+              "currency": null,
+              "customDuties": null,
+              "customsMessage": null,
+              "rateBreakdownList": [
+                {
+                  "carrierGroupId": "33334",
+                  "carrierCode": "shqcustom2",
+                  "methodCode": "Ground",
+                  "totalCharges": 5.00,
+                  "shippingPrice": 5.00,
+                  "handlingFee": 0.00,
+                  "carrierType": "custom",
+                  "name": "Ground",
+                  "shipments": [
+                    {
+                      "name": "SHQ_CUSTOM",
+                      "weight": 20.6000,
+                      "volume": 0,
+                      "length": 0,
+                      "width": 0,
+                      "height": 0,
+                      "packingWeight": 0,
+                      "declaredValue": 0.00,
+                      "surchargePrice": 0,
+                      "boxedItems": [
+                        {
+                          "itemId": "999",
+                          "sku": "TA038158",
+                          "weightPacked": 20.6000,
+                          "indVolume": null,
+                          "qtyPacked": 1.0000,
+                          "volumePacked": 0
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "carrierGroupId": "36774",
+                  "carrierCode": "shqflat6",
+                  "methodCode": "fixed",
+                  "totalCharges": 5.00,
+                  "shippingPrice": 5.00,
+                  "handlingFee": 0.00,
+                  "carrierType": "flat",
+                  "name": "Fixed",
+                  "shipments": [
+                    {
+                      "name": "SHQ_CUSTOM",
+                      "weight": 20.6000,
+                      "volume": 0,
+                      "length": 0,
+                      "width": 0,
+                      "height": 0,
+                      "packingWeight": 0,
+                      "declaredValue": 0.00,
+                      "surchargePrice": 0,
+                      "boxedItems": [
+                        {
+                          "itemId": "999",
+                          "sku": "TA038158",
+                          "weightPacked": 20.6000,
+                          "indVolume": null,
+                          "qtyPacked": 1.0000,
+                          "volumePacked": 0
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "deliveryMessage": "Delivers: 2/24/2020",
+              "flatRulesApplied": [],
+              "changeRulesApplied": [],
+              "shipments": null
+            }
+          ],
+          "pickupLocationDetails": null,
+          "calendarDetails": null,
+          "shipments": null,
+          "availableOptions": [
+            {
+              "name": "Liftgate Required",
+              "code": "liftgate_required",
+              "availableOptionType": "BOOLEAN",
+              "values": null,
+              "defaultOptionValue": "0"
+            },
+            {
+              "name": "Address Type",
+              "code": "destination_type",
+              "availableOptionType": "SELECT",
+              "values": {
+                "residential": "Residential",
+                "business": "Business"
+              },
+              "defaultOptionValue": "business"
+            },
+            {
+              "name": "Notify Required",
+              "code": "notify_required",
+              "availableOptionType": "BOOLEAN",
+              "values": null,
+              "defaultOptionValue": "0"
+            },
+            {
+              "name": "Inside Delivery",
+              "code": "inside_delivery",
+              "availableOptionType": "BOOLEAN",
+              "values": null,
+              "defaultOptionValue": "0"
+            },
+            {
+              "name": "Limited Access Delivery",
+              "code": "limited_delivery",
+              "availableOptionType": "BOOLEAN",
+              "values": null,
+              "defaultOptionValue": "0"
+            }
+          ],
+          "preventRulesApplied": [],
+          "error": null,
+          "sortOrder": 999
+        }
+      ],
+      "error": {
+        "errorCode": 404,
+        "internalErrorMessage": "No merged rates. Please review your carrier merge rules.",
+        "externalErrorMessage": "This shipping method is currently unavailable. If you would like to ship using this shipping method, please contact_us.",
+        "priority": 999
+      }
+    },
+    "globalSettings": {
+      "dateFormat": "mm/dd/yyyy",
+      "currencyCode": "USD",
+      "weightUnit": "lb",
+      "dropshipShowMergedRates": true,
+      "dropshipShowItemDesc": false,
+      "dropshipDescription": "Multiple Warehouses",
+      "dropshipTitle": "Shipping",
+      "distanceUnit": "MI",
+      "carrierGroupDescription": "Origin",
+      "calendarConfirm": false,
+      "shippingTooltipText": null,
+      "showPickupMulti": false,
+      "cityRequired": false,
+      "sortByPrice": "ascending",
+      "dropshipShowWeight": false,
+      "preferredLocale": "en-US"
+    },
+    "addressValidationResponse": {
+      "errors": [],
+      "responseSummary": null,
+      "validationStatus": "VALIDATION_NOT_ENABLED",
+      "suggestedAddresses": [],
+      "destinationType": "UNKNOWN"
+    },
+    "carrierMethods": [
+      {
+        "carrierCode": "shqshipper1",
+        "title": "Fixed",
+        "methods": [
+          {
+            "methodCode": "fixed",
+            "name": "Fixed"
+          }
+        ],
+        "sortOrder": 0
+      },
+      {
+        "carrierCode": "shqups2",
+        "title": "UPS®",
+        "methods": [
+          {
+            "methodCode": "1DA",
+            "name": "UPS Next Day Air®"
+          },
+          {
+            "methodCode": "2DA",
+            "name": "UPS 2nd Day Air®"
+          },
+          {
+            "methodCode": "GND",
+            "name": "UPS® Ground"
+          },
+          {
+            "methodCode": "XPR",
+            "name": "UPS Worldwide Express®"
+          },
+          {
+            "methodCode": "XPD",
+            "name": "UPS Worldwide Expedited®"
+          },
+          {
+            "methodCode": "STD",
+            "name": "UPS® Standard"
+          },
+          {
+            "methodCode": "3DS",
+            "name": "UPS 3 Day Select®"
+          },
+          {
+            "methodCode": "65",
+            "name": "UPS Worldwide Saver®"
+          }
+        ],
+        "sortOrder": 0
+      }
+    ],
+    "carrierGroups": [
+      {
+        "carrierRates": [
+          {
+            "carrierId": 49590,
+            "carrierName": "Flat Carrier",
+            "carrierCode": "shqshipper1",
+            "carrierType": "flat",
+            "carrierTitle": "Fixed",
+            "customDescription": null,
+            "dateOption": "none",
+            "deliveryDateMessage": "",
+            "deliveryDateFormat": "yMd",
+            "notices": [],
+            "rates": [
+              {
+                "code": "fixed",
+                "externalCode": null,
+                "name": "Fixed",
+                "description": "Fixed",
+                "handlingFee": 2.05,
+                "totalCharges": 7.05,
+                "shippingPrice": 5.00,
+                "deliveryDate": null,
+                "deliveryDateStr": "",
+                "latestDeliveryDate": null,
+                "latestDeliveryDateStr": "",
+                "dispatchDate": null,
+                "dispatchDateStr": "",
+                "cost": 0,
+                "origShippingPrice": 5.00,
+                "overrideRuleCharges": 0,
+                "carrierType": "flat",
+                "carrierCode": "shqshipper1",
+                "negotiatedRate": false,
+                "selectedOptions": null,
+                "carrierTitle": "Fixed",
+                "currency": null,
+                "customDuties": 0,
+                "customsMessage": null,
+                "rateBreakdownList": [],
+                "deliveryMessage": "",
+                "flatRulesApplied": [],
+                "changeRulesApplied": [],
+                "shipments": null
+              }
+            ],
+            "pickupLocationDetails": null,
+            "calendarDetails": null,
+            "shipments": [
+              {
+                "name": "SHQ_CUSTOM",
+                "weight": 0.3200,
+                "volume": 0,
+                "length": 0,
+                "width": 0,
+                "height": 0,
+                "packingWeight": 0,
+                "declaredValue": 0.00,
+                "surchargePrice": 0,
+                "boxedItems": [
+                  {
+                    "itemId": "8cb63f5d87954702099eaa5dc1",
+                    "sku": "008884304054M",
+                    "weightPacked": 0.1600,
+                    "indVolume": 1.000000000000,
+                    "qtyPacked": 1.0000,
+                    "volumePacked": 1.0000000000000000
+                  },
+                  {
+                    "itemId": "9fb50f5277a76ce11401c69cb5",
+                    "sku": "701644059231M",
+                    "weightPacked": 0.1600,
+                    "indVolume": 1.000000000000,
+                    "qtyPacked": 1.0000,
+                    "volumePacked": 1.0000000000000000
+                  }
+                ]
+              }
+            ],
+            "availableOptions": [],
+            "preventRulesApplied": [],
+            "error": null,
+            "sortOrder": 0
+          },
+          {
+            "carrierId": 49591,
+            "carrierName": "UPS®",
+            "carrierCode": "shqups2",
+            "carrierType": "ups",
+            "carrierTitle": "UPS®",
+            "customDescription": "",
+            "dateOption": "delivery_date",
+            "deliveryDateMessage": "",
+            "deliveryDateFormat": "yMd",
+            "notices": [],
+            "rates": [
+              {
+                "code": "GND",
+                "externalCode": null,
+                "name": "UPS® Ground",
+                "description": null,
+                "handlingFee": 0.00,
+                "totalCharges": 10.38,
+                "shippingPrice": 10.38,
+                "deliveryDate": 1576814400000,
+                "deliveryDateStr": "19-12-2019 23:00:00 -0500",
+                "latestDeliveryDate": null,
+                "latestDeliveryDateStr": "",
+                "dispatchDate": 1576472400000,
+                "dispatchDateStr": "16-12-2019 00:00:00 -0500",
+                "cost": 0,
+                "origShippingPrice": 10.38,
+                "overrideRuleCharges": 0,
+                "carrierType": "ups",
+                "carrierCode": "shqups2",
+                "negotiatedRate": false,
+                "selectedOptions": {
+                  "options": [
+                    {
+                      "name": "destination_type",
+                      "value": "BUSINESS"
+                    }
+                  ]
+                },
+                "carrierTitle": "UPS®",
+                "currency": "USD",
+                "customDuties": 0,
+                "customsMessage": null,
+                "rateBreakdownList": [],
+                "deliveryMessage": "Delivers: 12/19/2019",
+                "flatRulesApplied": [],
+                "changeRulesApplied": [],
+                "shipments": null
+              },
+              {
+                "code": "3DS",
+                "externalCode": null,
+                "name": "UPS 3 Day Select®",
+                "description": null,
+                "handlingFee": 0.00,
+                "totalCharges": 21.30,
+                "shippingPrice": 21.30,
+                "deliveryDate": 1576814400000,
+                "deliveryDateStr": "19-12-2019 23:00:00 -0500",
+                "latestDeliveryDate": null,
+                "latestDeliveryDateStr": "",
+                "dispatchDate": 1576472400000,
+                "dispatchDateStr": "16-12-2019 00:00:00 -0500",
+                "cost": 0,
+                "origShippingPrice": 21.30,
+                "overrideRuleCharges": 0,
+                "carrierType": "ups",
+                "carrierCode": "shqups2",
+                "negotiatedRate": false,
+                "selectedOptions": {
+                  "options": [
+                    {
+                      "name": "destination_type",
+                      "value": "BUSINESS"
+                    }
+                  ]
+                },
+                "carrierTitle": "UPS®",
+                "currency": "USD",
+                "customDuties": 0,
+                "customsMessage": null,
+                "rateBreakdownList": [],
+                "deliveryMessage": "Delivers: 12/19/2019",
+                "flatRulesApplied": [],
+                "changeRulesApplied": [],
+                "shipments": null
+              },
+              {
+                "code": "2DA",
+                "externalCode": null,
+                "name": "UPS 2nd Day Air®",
+                "description": null,
+                "handlingFee": 0.00,
+                "totalCharges": 29.52,
+                "shippingPrice": 29.52,
+                "deliveryDate": 1576728000000,
+                "deliveryDateStr": "18-12-2019 23:00:00 -0500",
+                "latestDeliveryDate": null,
+                "latestDeliveryDateStr": "",
+                "dispatchDate": 1576472400000,
+                "dispatchDateStr": "16-12-2019 00:00:00 -0500",
+                "cost": 0,
+                "origShippingPrice": 29.52,
+                "overrideRuleCharges": 0,
+                "carrierType": "ups",
+                "carrierCode": "shqups2",
+                "negotiatedRate": false,
+                "selectedOptions": {
+                  "options": [
+                    {
+                      "name": "destination_type",
+                      "value": "BUSINESS"
+                    }
+                  ]
+                },
+                "carrierTitle": "UPS®",
+                "currency": "USD",
+                "customDuties": 0,
+                "customsMessage": null,
+                "rateBreakdownList": [],
+                "deliveryMessage": "Delivers: 12/18/2019",
+                "flatRulesApplied": [],
+                "changeRulesApplied": [],
+                "shipments": null
+              },
+              {
+                "code": "1DA",
+                "externalCode": null,
+                "name": "UPS Next Day Air®",
+                "description": null,
+                "handlingFee": 0.00,
+                "totalCharges": 71.32,
+                "shippingPrice": 71.32,
+                "deliveryDate": 1576641600000,
+                "deliveryDateStr": "17-12-2019 23:00:00 -0500",
+                "latestDeliveryDate": null,
+                "latestDeliveryDateStr": "",
+                "dispatchDate": 1576472400000,
+                "dispatchDateStr": "16-12-2019 00:00:00 -0500",
+                "cost": 0,
+                "origShippingPrice": 71.32,
+                "overrideRuleCharges": 0,
+                "carrierType": "ups",
+                "carrierCode": "shqups2",
+                "negotiatedRate": false,
+                "selectedOptions": {
+                  "options": [
+                    {
+                      "name": "destination_type",
+                      "value": "BUSINESS"
+                    }
+                  ]
+                },
+                "carrierTitle": "UPS®",
+                "currency": "USD",
+                "customDuties": 0,
+                "customsMessage": null,
+                "rateBreakdownList": [],
+                "deliveryMessage": "Delivers: 12/17/2019",
+                "flatRulesApplied": [],
+                "changeRulesApplied": [],
+                "shipments": null
+              }
+            ],
+            "pickupLocationDetails": null,
+            "calendarDetails": null,
+            "shipments": [
+              {
+                "name": "SHQ_CUSTOM",
+                "weight": 0.3200,
+                "volume": 0,
+                "length": 0,
+                "width": 0,
+                "height": 0,
+                "packingWeight": 0,
+                "declaredValue": 0.00,
+                "surchargePrice": 0,
+                "boxedItems": [
+                  {
+                    "itemId": "8cb63f5d87954702099eaa5dc1",
+                    "sku": "008884304054M",
+                    "weightPacked": 0.1600,
+                    "indVolume": 1.000000000000,
+                    "qtyPacked": 1.0000,
+                    "volumePacked": 1.0000000000000000
+                  },
+                  {
+                    "itemId": "9fb50f5277a76ce11401c69cb5",
+                    "sku": "701644059231M",
+                    "weightPacked": 0.1600,
+                    "indVolume": 1.000000000000,
+                    "qtyPacked": 1.0000,
+                    "volumePacked": 1.0000000000000000
+                  }
+                ]
+              }
+            ],
+            "availableOptions": [],
+            "preventRulesApplied": [
+              "Carrier prevents shipping methods"
+            ],
+            "error": null,
+            "sortOrder": 0
+          }
+        ],
+        "carrierGroupDetail": {
+          "emailOption": null,
+          "checkoutDescription": "Austin",
+          "name": "Austin",
+          "carrierGroupId": "38085",
+          "dateFormat": "mm/dd/yyyy",
+          "emailAddress": null,
+          "contactName": null,
+          "packingStation": null
+        },
+        "products": [
+          {
+            "id": "8cb63f5d87954702099eaa5dc1",
+            "sku": "008884304054M",
+            "qty": 1,
+            "name": null
+          },
+          {
+            "id": "9fb50f5277a76ce11401c69cb5",
+            "sku": "701644059231M",
+            "qty": 1,
+            "name": null
+          }
+        ]
+      }
+    ]
+  }
